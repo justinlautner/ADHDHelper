@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="192dp"
+    android:background="@color/colorPrimary"
+    android:fillColor="#000000"
+    android:gravity="bottom"
+    android:padding="16dp"
+    android:theme="@style/ThemeOverlay.AppCompat.Dark">
+
+    <ImageView
+        android:id="@+id/userPhoto"
+        android:layout_width="65dp"
+        android:layout_height="match_parent"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="8dp"
+        android:cropToPadding="false"
+        app:srcCompat="@drawable/cool_pineapple" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="23dp" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="23dp" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="19dp" />
+
+        <TextView
+            android:id="@+id/userName"
+            android:layout_width="match_parent"
+            android:layout_height="23dp"
+            android:fontFamily="sans-serif-condensed"
+            android:shadowColor="@color/colorPrimary"
+            android:text="Barrack Obama"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textColor="@android:color/white" />
+
+        <TextView
+            android:id="@+id/userEMail"
+            android:layout_width="match_parent"
+            android:layout_height="23dp"
+            android:fontFamily="sans-serif-condensed"
+            android:shadowColor="@color/colorPrimary"
+            android:text="BarrackObama@yahoo.com"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textColor="@android:color/white" />
+
+        <TextView
+            android:id="@+id/dutiesDue"
+            android:layout_width="match_parent"
+            android:layout_height="23dp"
+            android:fontFamily="sans-serif-condensed"
+            android:shadowColor="@color/colorPrimary"
+            android:text="27 Upcoming Duties"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textColor="@android:color/white"
+            android:textSize="14sp" />
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group
+        android:id="@+id/groupHub"
+        android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_hub"
+            android:checked="true"
+            android:icon="@drawable/ic_device_hub_black_24dp"
+            android:title="Hub" />
+    </group>
+    <group android:id="@+id/groupDuties"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_duties"
+            android:icon="@drawable/ic_rowing_black_24dp"
+            android:title="Duties" />
+    </group>
+    <group android:id="@+id/groupCalendar"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_calendar"
+            android:icon="@drawable/ic_today_black_24dp"
+            android:title="Calendar" />
+    </group>
+    <group android:id="@+id/groupGroups"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_groups"
+            android:icon="@drawable/ic_group_black_24dp"
+            android:title="Groups" />
+    </group>
+    <group android:id="@+id/groupSettings"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_settings"
+            android:icon="@drawable/ic_settings_black_24dp"
+            android:title="Settings" />
+    </group>
+</menu>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/alphabeticalFilter"
+        android:title="Alphabetical..." />
+    <item
+        android:id="@+id/dateFilter"
+        android:title="Date..." />
+    <item
+        android:id="@+id/priorityFilter"
+        android:title="Priority..." />
+    <item
+        android:id="@+id/dutyFilter"
+        android:title="Type..." />
+</menu>
